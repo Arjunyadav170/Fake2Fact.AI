@@ -22,4 +22,52 @@
 ---
 
 ## 📁 Project Structure
+Fake2Fact/
+├── client/ # React Frontend
+│ ├── public/
+│ └── src/
+│ ├── components/
+│ ├── pages/
+│ └── App.js
+├── server/ # Node.js + Express Backend
+│ ├── controllers/
+│ ├── routes/
+│ └── index.js
+├── .gitignore
+├── README.md
+└── package.json
+
+
+---
+
+## 🧑‍💻 Tech Stack
+
+| Layer     -> Technology                
+
+ Frontend  -> React, Tailwind CSS                     
+ Backend   -> Node.js, Express.js                      
+ AI/NLP    -> HuggingFace or openAI / LangChain        
+ Search   -> FAISS / Chroma (Vector DB)|
+ Image OCR ->Tesseract.js              
+ Deployment-> Render  
+
+---
+
+## ⚙️ Installation Guide
+
+### 🔧 Prerequisites
+- Node.js >= 18
+- npm or yarn
+- Hugging Face/OpenAI API Key
+
+### 📦 Backend Setup (`server/`)
+```bash
+cd server
+npm install
+# Create a .env file and add your API keys
+touch .env
+# Inside .env
+OPENAI_API_KEY=your_key_here
+
+npm start
 
