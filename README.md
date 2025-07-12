@@ -60,14 +60,7 @@ Fake2Fact/
 - npm or yarn
 - Hugging Face/OpenAI API Key
 
-### 📦 Backend Setup (`server/`)
-```bash
-cd server
-npm install
-# Create a .env file and add your API keys
-touch .env
-# Inside .env
-OPENAI_API_KEY=your_key_here
 
-npm start
 
+# working project.....
+## project not complete 
