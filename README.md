@@ -22,20 +22,20 @@
 ---
 
 ## 📁 Project Structure
-Fake2Fact/
-├── client/ # React Frontend
-│ ├── public/
-│ └── src/
-│ ├── components/
-│ ├── pages/
-│ └── App.js
-├── server/ # Node.js + Express Backend
-│ ├── controllers/
-│ ├── routes/
-│ └── index.js
-├── .gitignore
-├── README.md
-└── package.json
+Fake2Fact/<br>
+├── client/ # React Frontend<br>
+│ ├── public/<br>
+│ └── src/<br>
+│ ├── components/<br>
+│ ├── pages/<br>
+│ └── App.js<br>
+├── server/ # Node.js + Express Backend<br>
+│ ├── controllers/<br>
+│ ├── routes/<br>
+│ └── index.js<br>
+├── .gitignore<br>
+├── README.md<br>
+└── package.json<br>
 
 
 ---
